@@ -1,1 +1,3 @@
-# Sizani-Front
+# Sizani Front
+
+Sizani frontend service
