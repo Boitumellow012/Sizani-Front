@@ -9,8 +9,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route element={<AppLayout children={undefined} />}>
-          <Route path="/" element={<OnBoarding/>} />
+        <Route path="/" element={<AppLayout />}>
+          <Route index element={<OnBoarding/>} />
           <Route path="/sign-up" element={<SignUp/>} />
           <Route path="/sign-in" element={<SignIn/>} />
 
