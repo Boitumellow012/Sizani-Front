@@ -2,7 +2,7 @@ import { Avatar, Dropdown, Navbar } from "flowbite-react";
 
 export default function NavbarMenu() {
   return (
-    <Navbar className="flex items-center justify-between">
+    <Navbar className="flex items-center justify-between shadow-lg py-4 fixed top-0 left-0 w-full">
       <Navbar.Brand href="https://flowbite-react.com">
         <span className="self-center whitespace-nowrap text-xl font-extrabold tracking-wider dark:text-white">
           siZani!
